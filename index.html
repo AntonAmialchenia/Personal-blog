@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221013184931">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__left">
+				<div class="menu">
+					<button class="menu__icon icon-menu"><span></span></button>
+					<div class="menu__body">
+					</div>
+				</div>
+				<nav data-da=".menu__body, 700, 2" class="header__nav">
+					<ul class="header__list">
+						<li class="header__item">
+							<a href="index.html" class="header__link">Главная</a>
+						</li>
+
+						<li data-spollers="700,max" class="header__item spollers">
+							<div class="spollers__item">
+								<a href="" data-spoller class="header__link _arrow spollers__title">Статьи</a>
+								<div class="spollers__body">
+									<ul class="sub-header__list">
+										<div class="sub-header__items">
+											<li class="sub-header__item">
+												<a href="" class="sub-header__link">Создание сайтов</a>
+											</li>
+											<li class="sub-header__item">
+												<a href="" class="sub-header__link">Интернет-маркетинг</a>
+											</li>
+											<li class="sub-header__item">
+												<a href="" class="sub-header__link">Продвижение видео</a>
+											</li>
+										</div>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="header__item">
+							<a href="post.html" class="header__link">Обо мне</a>
+						</li>
+						<li class="header__item">
+							<a href="post.html" class="header__link">Реклама</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__right right-header">
+				<nav data-da=".menu__body, 700, 2" class="right-header__nav">
+					<ul class="right-header__list">
+						<li class="right-header__item">
+							<a href="profile.html" class="right-header__link">Профиль</a>
+						</li>
+						<li class="right-header__item">
+							<a href="sing-in.html" class="right-header__link">Выйти</a>
+						</li>
+					</ul>
+				</nav>
+				<form action="search-page.html" method="get">
+					<input type="text" placeholder="Поиск по блогу" class="input">
+				</form>
+			</div>
+		</header>
+		<aside class="sidebar">
+			<div data-da=".menu__body, 700, first" class="sidebar__image">
+				<picture><source srcset="img/sidebar/sidebar-image.webp" type="image/webp"><img src="img/sidebar/sidebar-image.jpg" alt="Картинка"></picture>
+			</div>
+			<div class="sidebar__author author-sidebar">
+				<div data-da=".menu__body, 700, 0" class="author-sidebar__inner">
+					<div class="author-sidebar__image">
+						<picture><source srcset="img/sidebar/author.webp" type="image/webp"><img src="img/sidebar/author.png" alt="Автор"></picture>
+					</div>
+					<div class="author-sidebar__wrap">
+						<div class="author-sidebar__name">Антон Амельченя</div>
+						<div class="author-sidebar__prof">блог front-end разработчика</div>
+					</div>
+				</div>
+				<ul class="author-sidebar__social">
+					<li class="author-sidebar__item">
+						<a href="" target="_blank" class="author-sidebar__link">
+							<img src="img/sidebar/social/instagram.svg" alt="instagram">
+						</a>
+					</li>
+					<li class="author-sidebar__item">
+						<a href="" target="_blank" class="author-sidebar__link">
+							<img src="img/sidebar/social/vk.svg" alt="vk">
+						</a>
+					</li>
+					<li class="author-sidebar__item">
+						<a href="" target="_blank" class="author-sidebar__link">
+							<img src="img/sidebar/social/pinterest.svg" alt="pinterest">
+						</a>
+					</li>
+				</ul>
+				<div class="author-sidebar__text">Front-end разработчик. Практик верстки сайтов.
+					Созданием сайтов занимаюсь с 2022 года.
+				</div>
+			</div>
+			<div data-da=".menu__body, 700, 2" class="sidebar__buttons">
+				<a href="works-page.html" class="sidebar__button button button-red">Мои работы</a>
+				<button data-popup="#contact" type="submit" class="sidebar__button button button-blue">Написать мне</button>
+			</div>
+		</aside>
+		<main class="page">
+			<div class="page__storys storys">
+				<div class="storys__container">
+					<div data-popup="#video" class="storys__item">
+						<picture><source srcset="img/storys/1.webp" type="image/webp"><img class="storys__image " src="img/storys/1.jpg" alt="картинка"></picture>
+						<div class="storys__title">Отдыхаю на природе</div>
+						<time datetime="21.09.2020" class="storys__date">21.09.2020</time>
+					</div>
+					<div class="storys__item">
+						<picture><source srcset="img/storys/2.webp" type="image/webp"><img class="storys__image " src="img/storys/2.jpg" alt="картинка"></picture>
+						<div class="storys__title">Заканчиваю сложный проект</div>
+						<time datetime="15.09.2020" class="storys__date">15.09.2020</time>
+					</div>
+					<div class="storys__item">
+						<picture><source srcset="img/storys/3.webp" type="image/webp"><img class="storys__image " src="img/storys/3.jpg" alt="картинка"></picture>
+						<div class="storys__title">Переехал в новую квартиру</div>
+						<time datetime="11.09.2020" class="storys__date">11.09.2020</time>
+					</div>
+					<div class="storys__item">
+						<picture><source srcset="img/storys/4.webp" type="image/webp"><img class="storys__image " src="img/storys/4.jpg" alt="картинка"></picture>
+						<div class="storys__title">Осень пришла!</div>
+						<time datetime="28.08.2020" class="storys__date">28.08.2020</time>
+					</div>
+				</div>
+			</div>
+			<div class="page__add-post add-post">
+				<div class="add-post__container">
+					<form class="add-post__form" action="/" method="post">
+						<textarea data-autoheight class="add-post__textarea" placeholder="Напишите что-нибудь"></textarea>
+						<div class="add-post__buttons">
+							<label class="add-post__file" for="add-post-file">
+								<input type="file" id="add-post-file">
+							</label>
+							<button type="submit" class="add-post__button"></button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<section class="page__post post">
+				<div class="post__container">
+					<div class="post__body">
+						<div class="post__inner">
+							<div class="post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</div>
+							<div class="post__info">
+								<div class="post__item">
+									<time datatime="21.06.2020" class="post__date">21.06.2020</time>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__post post">
+				<div class="post__container">
+					<div class="post__body">
+						<div class="post__image">
+							<a href="text-page.html" class="post__link">
+								<picture><source srcset="img/post/code.webp" type="image/webp"><img src="img/post/code.jpg" alt="Как писать код быстро и безболезненно?"></picture>
+							</a>
+						</div>
+						<div class="post__inner">
+							<h2 class="post__title"><a href="text-page.html">Как писать код быстро и безболезненно?</a> </h2>
+							<div class="post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</div>
+							<div class="post__info">
+								<div class="post__item">
+									<time datatime="21.06.2020" class="post__date">21.06.2020</time>
+									<div class="post__teg">создание сайтов</div>
+								</div>
+								<a href="" class="post__link">читать</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__post post">
+				<div class="post__container">
+					<div class="post__body">
+						<div class="post__video">
+							<div class="post__embed">
+								<iframe src="https://www.youtube.com/embed/TLNJnxDdnhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+						<div class="post__inner">
+							<h2 class="post__title"><a href="">Купил новый ноутбук за 150 000 руб</a> </h2>
+							<div class="post__info">
+								<div class="post__item">
+									<time datatime="21.06.2020" class="post__date">21.06.2020</time>
+									<div class="post__teg">продвижение видео</div>
+								</div>
+								<a href="" class="post__link">оставить комментарий</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__post post">
+				<div class="post__container">
+					<div class="post__body">
+						<div class="post__image">
+							<picture><source srcset="img/post/conf.webp" type="image/webp"><img src="img/post/conf.jpg" alt="картинка"></picture>
+						</div>
+						<div class="post__inner">
+							<h2 class="post__title">Как я сходил на FrontEnd Conf 2021</h2>
+							<div class="post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</div>
+							<div class="post__info">
+								<div class="post__item">
+									<time datatime="21.06.2020" class="post__date">21.06.2020</time>
+									<div class="post__teg">создание сайтов</div>
+								</div>
+								<a href="" class="post__link">читать</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="pagination">
+				<div class="pagination__container">
+					<ul class="pagination__list">
+						<li class="pagination__item">
+							<a href="" class="pagination__link">&lt;</a>
+						</li>
+						<li class="pagination__item">
+							<a href="" class="pagination__link">1</a>
+						</li>
+						<li class="pagination__item _active">
+							<a href="" class="pagination__link ">2</a>
+						</li>
+						<li class="pagination__item">
+							<a href="" class="pagination__link">3</a>
+						</li>
+						<li class="pagination__item">
+							<a href="" class="pagination__link">&gt;</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+
+	</div>
+
+	<div id="contact" aria-hidden="true" class="contact popup">
+		<div class="popup__wrapper">
+			<div class="popup__content _contact">
+				<button data-close type="button" class="popup__close"></button>
+				<form class="popup__form" action="files/sendmail/sendmail.php" method="POST">
+					<input autocomplete="off" type="text" name="form[]" placeholder="Ваше имя" class="popup__input">
+					<input data-dev data-validate data-required="email" type="text" name="form[email]" data-error="Введен не верный E-mail" placeholder="E-mail" class="popup__input">
+					<textarea data-autoheight placeholder="Текст сообщения" class="popup__textarea"></textarea>
+					<button type="submit" class="popup__button">Отправить</button>
+				</form>
+				<div class="popup__contacts">
+					<div class="popup__email">e-mail: <a href="email:info@mywebsite.ru" class="popup__link  _contact">info@mywebsite.ru</a></div>
+					<div class="popup__tel">тел: <a href="tel:94323285622" class="popup__link _contact">+943-232-856-22</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="video" aria-hidden="true" class="video popup">
+		<div class="popup__wrapper">
+			<div class="popup__content _video">
+				<button data-close type="button" class="popup__close"></button>
+				<iframe src="https://www.youtube.com/embed/YHDansdSzrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20221013184931"></script>
+</body>
+
+</html>
